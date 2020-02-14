@@ -1,0 +1,135 @@
+h1 { color: palevioletred; 
+    font-family: 'Lobster', cursive;
+     font-size: 60px; font-weight: normal;
+      line-height: 30px;
+      font-style: oblique;
+      text-align: center; 
+     margin: 0 0 18px; text-shadow: 10px 0 0 gray;
+     background-color: #666;
+     padding: 30px;
+     text-align: center;
+     }
+     .navbar {
+        width: 100%;
+        background-color:grey;
+        overflow: auto;
+      }
+      
+      .navbar a {
+        float: left;
+        padding: 12px;
+        color: pink;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      .navbar a:hover {
+        background-color: palevioletred;
+      }
+      
+      .active {
+        background-color:black;
+      }
+      
+      @media screen and (max-width: 500px) {
+        .navbar a {
+          float: none;
+          display: block;
+        }
+      }
+    
+      
+    
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+body {
+  text-align: center;
+}
+.contact-section {
+  padding: 40px;
+  text-align: center;
+  background-color: palevioletred;
+  color:black;
+  
+}
+.g-recaptcha{
+  display: flex;
+  justify-content: center
+}
+
+.form-inline {  
+  display: flex;
+  flex-flow: row wrap;
+  display: flex;
+  justify-content: center
+}
+
+.form-inline label {
+  margin: 5px 10px 5px 0;
+}
+
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 2px solid #ddd;
+}
+
+.form-inline button {
+  padding: 10px 20px;
+  background-color: palevioletred;
+  border: 1px solid palevioletred;
+  color: white;
+  cursor: pointer;
+}
+
+.form-inline button:hover {
+  background-color: palevioletred;
+}
+
+@media (max-width: 800px) {
+  .form-inline input {
+    margin: 10px 0;
+  }
+  
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+ /* Style the footer */
+ footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+
+  .social-media img {
+    height: 40px;
+    width: 50px;
+    padding: 0 10px 0 10px;
+    border-radius: 50%;
+
+  }
+ 
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background:grey;
+    padding: 10px;
+  }
+
+  #footer1{
+  margin-left:2%;
+  float:left;
+  
+  }
+  #footer2{
+  margin-right:2%;
+  float:right;
+  }
